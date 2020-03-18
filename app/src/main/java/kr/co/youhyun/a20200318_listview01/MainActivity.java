@@ -49,6 +49,6 @@ public class MainActivity extends BaseActivity {
     void addStores() {
         storeDatas.add(new Store("삼겹더하기 본점", 4));
         storeDatas.add(new Store("밥해주는 남자", 4));
-
+        storeDatas.notifyDataSetChanged();
     }
 }
