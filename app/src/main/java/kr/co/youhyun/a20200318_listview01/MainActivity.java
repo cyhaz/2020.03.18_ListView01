@@ -48,7 +48,12 @@ public class MainActivity extends BaseActivity {
 
     void addStores() {
         storeDatas.add(new Store("삼겹더하기 본점", 4));
-        storeDatas.add(new Store("밥해주는 남자", 4));
-        storeDatas.notifyDataSetChanged();
+        storeDatas.add(new Store("밥해주는 남자", 5));
+        storeDatas.add(new Store("치킨", 4));
+        storeDatas.add(new Store("피자", 3));
+        storeDatas.add(new Store("햄버거", 2));
+        storeDatas.add(new Store("보쌈", 1));
+        storeDatas.add(new Store("한정식", 5));
+        storeAdapter.notifyDataSetChanged();
     }
 }

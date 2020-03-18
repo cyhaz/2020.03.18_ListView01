@@ -55,7 +55,7 @@ public class StoreAdapter extends ArrayAdapter<Store> {
         TextView storeRatingTxt = row.findViewById(R.id.storeRatingTxt);
 
         storeNameTxt.setText(data.getName());
-        storeRatingTxt.setText(String.format("평점 : %d점", data, storeRatingTxt));
+        storeRatingTxt.setText(String.format("평점 : %s점"));
 
         return row;
     }
